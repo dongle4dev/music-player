@@ -303,7 +303,7 @@
                 this.isRepeat = this.config.isRepeat
                 repeatBtn.classList.toggle('active', this.isRepeat)
 
-                this.curIdx = this.config.idx
+                this.curIdx = this.config.idx || 0
             },
             start: function() { 
                 this.defineProperties()
